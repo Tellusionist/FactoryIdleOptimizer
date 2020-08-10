@@ -1,0 +1,24 @@
+{
+    "Iron_Ore" :
+        {
+            "name" : "Iron Ore Buyer",
+            "buys" : [2,4,8,12,24,36,48,64,96]
+        },
+    "Iron_Foundry" :
+        {
+            "name" : "Iron Foundry",
+            "uses" : 
+                    {
+                        "Iron_Ore" : [4,8,6,12,24,36,48,64,96]
+                    },
+            "produces" : 
+                    {
+                        "Iron" : [2,4,6,12,18,24,48,96]
+                    }
+        },
+    "Coal_Ore" :
+        {
+            "name" : "Coal Ore Buyer",
+            "buys" : [4,8,16,24,36]
+        }
+}
