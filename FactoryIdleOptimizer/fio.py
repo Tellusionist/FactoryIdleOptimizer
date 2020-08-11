@@ -15,3 +15,5 @@ game_grid = [
     [0,0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0,0]
 ]
+
+# Need to compare numpy array vs list performance
